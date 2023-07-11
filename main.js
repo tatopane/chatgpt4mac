@@ -5,7 +5,7 @@ function createWindow () {
   let win = new BrowserWindow({
     width: 800,
     height: 600,
-    icon: path.join(__dirname, 'logo.png'),
+    icon: path.join(__dirname, 'logo.icns'),
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true

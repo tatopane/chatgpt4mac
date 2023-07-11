@@ -1,6 +1,6 @@
 {
   "name": "chatgptdesktop",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "appId": "com.tatopane.chatgptdesktop",
     "productName": "ChatGPT Desktop Client",
     "mac": {
-      "icon": "logo.png"
+      "icon": "logo.icns"
     },
     "win": {
       "icon": "logo.ico"
