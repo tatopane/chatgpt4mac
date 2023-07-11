@@ -1,0 +1,31 @@
+{
+  "name": "chatgptdesktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.2.0",
+    "electron-builder": "^24.4.0"
+  },
+  "build": {
+    "appId": "com.tatopane.chatgptdesktop",
+    "productName": "ChatGPT Desktop Client",
+    "mac": {
+      "icon": "logo.png"
+    },
+    "win": {
+      "icon": "logo.ico"
+    },
+    "linux": {
+      "icon": "logo.png"
+    }
+  }
+}
